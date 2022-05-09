@@ -13,3 +13,6 @@ def nosotros(request):
 
 def ubicacion(request):
     return render(request, 'ubicacion.html')
+
+def repuestos(request):
+    return render(request, 'repuestos.html')
