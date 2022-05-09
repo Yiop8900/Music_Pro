@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'css/diseño.css'  %}">
+    <title>MUSIC PRO</title>
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+        integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+        integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+        <div class="container-fluid">
+            <img src="{% static 'media/img/guitarra.png' %}" height="50px" width="50px">
+            <a class="navbar-brand" href="{% url 'index' %}"> &nbsp; &nbsp; &nbsp; MUSIC PRO</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="{% url 'index' %}">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'nosotros' %}">NOSOTROS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'tienda' %}">TIENDA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ubicacion.html">UBICACION</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="repuestos.html">REPUESTOS DE INSTRUMENTOS</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            TIPOS DE INSTRUMENTOS
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li>
+                                <a class="dropdown-item" href="cambio_neumaticos.html">INSTRUMENTOS DE PERCUSIÓN</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="chasis_carroceria.html">INSTRUMENTOS DE CUERDA</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="pintura.html">AMPLIFICADORES</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <h1 class="titulo" style="margin-top: 5%;">Estamos ubicados en:</h1>
+
+    <center>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1174.8433836681204!2d-70.51824555352509!3d-33.60637101402361!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x45315b4f0c86b6dc!2sFuentes%20Ramirez%20Victor!5e0!3m2!1ses!2scl!4v1619484547120!5m2!1ses!2scl"
+            width="80%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </center>
+
+    <h2 class="direccion">Los Titlos 0116, Casas Viejas, Puente Alto</h2>
+
+    <br>
+
+    <br>
+    <div class="horarios">
+        <i>
+            <p>Nos pueden visitar en cualquier momento.</p>
+        </i>
+
+        <h2 class="Horario">Horarios de atención:</h2>
+
+        <table>
+            <tr class="Horario">
+                <td>Lunes:</td>
+                <td>Desde las 11:30hrs a 18:00hrs</td>
+            </tr>
+            <tr class="Horario">
+                <td>Martes:</td>
+                <td>Desde las 10:30hrs a 19:00hrs</td>
+            </tr>
+            <tr class="Horario">
+                <td>Miercoles:</td>
+                <td>Desde las 11:30hrs a 20:00hrs</td>
+            </tr>
+            <tr class="Horario">
+                <td>Jueves:</td>
+                <td>Desde las 10:30hrs a 19:00hrs</td>
+            </tr>
+            <tr class="Horario">
+                <td>Viernes:</td>
+                <td>Desde las 09:30hrs a 15:00hrs</td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <br>
+</body>
+
+</html>

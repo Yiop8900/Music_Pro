@@ -1,0 +1,125 @@
+body
+{
+    background: linear-gradient(#3d3d3d, #000000);
+}
+
+.navbar
+{
+    background-color: #2a1c7952;
+}
+
+.carousel
+{
+    border-radius: 0;
+}
+
+.ul{
+    margin-top: 100px;
+}
+
+
+.navbar{
+    font-family: Showcard Gothic;
+}
+
+
+.diseño_texto_imagenes
+{
+    font-family: Showcard Gothic;
+    font-style: oblique;
+}
+
+.titulo
+{
+    margin-top: 3%;
+    color:white;
+    text-align: center;
+    font-family: Showcard Gothic;
+}
+
+.direccion
+{
+    color:white;
+    text-align: center;
+    font-family: Showcard Gothic;
+}
+
+.horarios
+{
+    color:white;
+    margin-left: 30%;
+}
+
+#carta
+{
+    margin-top: 3%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.Horario{
+    color: black;
+}
+
+h1{
+    font-family: Showcard Gothic;
+    margin-top: 3%;
+    color: white;
+    text-align: center;
+}
+
+#tarjeta
+{
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 30px;
+}
+
+
+#usuario
+{
+    width: 50%;
+    font-family: Showcard Gothic;
+}
+
+#correo
+{
+    width: 50%;
+    font-family: Showcard Gothic;
+}
+
+#contrasenia
+{
+    width: 50%;
+    font-family: Showcard Gothic;
+}
+
+.mb-3
+{
+    margin-left:30%;
+}
+
+#botones
+{
+    margin-left: 30%;
+}
+
+#btn
+{
+    font-family: Showcard Gothic;
+}
+
+.marhen
+{
+    margin-top: 8.2%;
+    margin-bottom: 20.4%;
+}
+
+.detalles
+{
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-family: Showcard Gothic;
+}

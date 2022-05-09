@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'css/Nosotros.css'  %}">
+    <title>MUSIC PRO</title>
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+        integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+        integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <img src="{% static 'media/img/guitarra.png' %}" height="50px" width="50px">
+            <a class="navbar-brand" href="{% url 'index' %}"> &nbsp; &nbsp; &nbsp; MUSIC PRO</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="{% url 'index' %}">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'nosotros' %}">NOSOTROS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'tienda' %}">TIENDA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'tienda' %}l">UBICACION</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'tienda' %}">REPUESTOS DE INSTRUMENTOS</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            TIPOS DE INSTRUMENTOS
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li>
+                                <a class="dropdown-item" href="cambio_neumaticos.html">INSTRUMENTOS DE PERCUSIÓN</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="chasis_carroceria.html">INSTRUMENTOS DE CUERDA</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="pintura.html">AMPLIFICADORES</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+        
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+            crossorigin="anonymous"></script>
+        </div>
+        <main>
+                <h2 style="text-align: center; color: white; font-family: Showcard Gothic; margin-top: 40px;">Bienvenido a nuestra tienda</h2>
+                <h5 style="text-align: center; color: white; font-family: Showcard Gothic; margin-top: 20px; margin-bottom: 25px;">Con nuestro profesionalisto podremos entregar el instrumento apropiado para tus necesidades</h5>
+                
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="{% static 'media/img/opera.jpg' %}" class="d-block w-100" height="680px">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="{% static 'media/img/coliseo.jpg' %}" class="d-block w-100" height="680px">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="{% static 'media/img/opera3.jpg' %}" class="d-block w-100" height="680px">
+                      </div>
+                    </div>
+                  </div>
+                <hr style="color: black; ">
+                
+                <center><h3 style="text-align: center; color: white; font-family: Showcard Gothic; margin-top: 20px;">¿Quienes somos?</h3></center>
+                <h5 style="text-align: center; color: white; font-family: Showcard Gothic; margin-top: 10px; margin-bottom: 15;">Somos un equipo capacitado para dar soluciones a requerimientos musicales de
+                    cualquier tipo, nuestro compromiso con nuestros clientes es de suma importacia desde el inicio
+                    hasta
+                    el fin.</h5>
+            <!--sector perfiles-->
+            <section id="blog">
+                <h3>Nuestro equipo</h3>
+                <div class="contenedor">
+                    <article>
+                        <!--article><img src="img/mujer1.jpg" alt="">
+                    <h4>Constanza Sepulveda</h4>-->
+                        <div class="img-container">
+                            <img src="{% static 'media/img/marilyn.jpg' %}">
+                            <p>Soy Darliett Candia, estudio ingenieria en informatica, un gusto trabajar con usted.
+                            </p>
+                        </div>
+                        <h4>Darliett Candia</h4>
+                    </article>
+                    <article>
+                        <!--<img src="img/hombre1.jpg" alt="">
+                    <h4>Luis Fernandez</h4>-->
+                        <div class="img-container">
+                            <img src="{% static 'media/img/beethoven.jpg' %}">
+                            <p>Soy Luis Fernandez, estudio ingenieria en informatica, un gusto trabajar con usted.</p>
+                        </div>
+                        <h4>Luis Fernandez</h4>
+                    </article>
+                    <article>
+                        <!--<img src="img/hombre3.jpg" alt="">
+                    <h4>Franscisco</h4>-->
+                        <div class="img-container">
+                            <img src="{% static 'media/img/elvis.jpg' %}">
+                            <p>Soy Brayan Trecanao, estudio ingenieria en informatica, un gusto trabajar con usted.</p>
+                        </div>
+                        <h4>Brayan Trecanao</h4>
+                    </article>
+                    <article>
+                        <!--<img src="img/hombre3.jpg" alt="">
+                    <h4>Franscisco</h4>-->
+                        <div class="img-container">
+                            <img src="{% static 'media/img/michel.jpg' %}">
+                            <p>Soy Maicol Lecaros, estudio ingenieria en informatica, un gusto trabajar con usted.
+                            </p>
+                        </div>
+                        <h4>Maicol Lecaros</h4>
+                    </article>
+                </div>
+            </section>
+            <!--informacion de animales para adoptar-->
+            <section id="info">
+                <h3>PARA MUCHOS SOMOS LA MEJOR TIENDA DE MUSICA</h3>
+
+                <sub>Siguenos en nuestras redes.</sub>
+                <div class="contenedor">
+                    <article>
+                        <img src="{% static 'media/img/facebook.png' %}" alt="">
+                        <h4>Facebook</h4>
+                    </article>
+                    <article>
+                        <img src="{% static 'media/img/instagram.png' %}" alt="">
+                        <h4>Instagram</h4>
+                    </article>
+                    <article>
+                        <img src="{% static 'media/img/twitteer.png' %}" alt="">
+                        <h4>Twitter</h4>
+                    </article>
+                    <article>
+                        <img src="{% static 'media/img/whatsapp.png' %}" alt="">
+                        <h4>Whatsapp</h4>
+                    </article>
+
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="contenedor">
+                <p>Todos los derechos reservados.</p>
+            </div>
+        </footer>
+
+    </body>
+
+</html>

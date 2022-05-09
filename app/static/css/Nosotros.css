@@ -1,0 +1,143 @@
+body
+{
+    background: linear-gradient(#494848, #000000);
+}
+    
+.navbar
+{
+    background-color: #2a1c7952;
+}
+
+.ul{
+    margin-top: 100px;
+}
+
+.carousel-inner{
+    border-radius: 30px;
+}
+
+.navbar{
+    font-family: Showcard Gothic;
+}
+
+
+#bienvenida{
+    color: white;
+    border-radius: 5%;
+    margin-top: 45px;
+    font-family: Showcard Gothic;
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 30px;
+    padding: 50px;
+}
+
+#blog {
+    color: white;
+    border: solid black;
+    background: #7c1ea156;
+    padding: 30px;
+    font-family: cursive;
+    text-align: center;
+}
+
+#blog .contenedor img{
+    width: 350px;
+    height: 250px;
+    border: solid 3px black;
+    border-radius: 20px;
+}
+
+#blog .contenedor{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+#blog .contenedor article{
+    margin: 10px;
+}
+
+#blog .contenedor img:hover{
+    filter: opacity(0.5);
+    border-radius: 20px;
+}
+
+#info{
+    background: #7c1ea13d;
+    margin-top: 45px;
+    color: white;
+    text-align: center;
+    font-family: Showcard Gothic;
+    padding: 20px;
+}
+
+#info .contenedor img{
+
+    
+    width: 50px;
+    height: 50px;
+    
+}
+
+#info .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#info .contenedor article{
+    margin: 30px;
+}
+
+footer .contenedor{
+    color: white;
+    margin-top: 40px;
+    font-family: Showcard Gothic;
+    font-size: 10px;
+    text-align: center;
+    
+}
+
+.img-container {
+    width: 350px;
+    height: 250px;;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 20px;
+}
+  
+.img-container:before {
+    content: '';
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    background: #000;
+    opacity: 0;
+    transition: opacity .3s linear; 
+    border-radius: 20px;  
+}
+  
+.img-container:hover:before { 
+    opacity: .75;
+    border-radius: 20px;
+    border-radius: 20px;
+}
+  
+.img-container p {
+    width: inherit;  
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: 100%; 
+    transition: top .3s linear;
+    border-radius: 20px;
+}
+  
+.img-container:hover p {    
+    top: 70%;
+    border-radius: 20px;
+}
+
